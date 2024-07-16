@@ -41,7 +41,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-4239794106"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-#start message
+#start messages
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first} Anda harus bergabung di Channel/Grup saya untuk menggunakan saya. Silakan Join Ke Channel Terlebih Dahulu</b>")
 try:
     ADMINS=[]
